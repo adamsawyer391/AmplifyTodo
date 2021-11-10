@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+
 .container { 
   width: 400px;
   margin: 0 auto;
@@ -35,4 +37,19 @@ button {
   outline: none;
   font-size: 18px;
   padding: 12px 0px;
+}
+
+amplify-authenticator {
+  --amplify-font-family: 'Righteous', serif !important;
+}
+
+:root{
+  --amplify-primary-color: blue;
+  --amplify-primary-tint: red; 
+  --amplify-primary-shade: red;
+}
+
+amplify-authenticator {
+  --background-color: none;
+  --box-shadow: none;
 }

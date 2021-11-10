@@ -23,5 +23,13 @@
       "providerPlugin": "awscloudformation",
       "type": "manual"
     }
+  },
+  "auth": {
+    "todolistf9302965": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
   }
 }
